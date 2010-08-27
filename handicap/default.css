@@ -1,0 +1,56 @@
+/* AUTHOR: m00g m0000g@gmail.com */
+
+#content_handicap
+{width:500px;
+margin:0px auto;
+position:relative;
+clear:left;
+text-align:left;
+padding-left:10px;
+padding-right:10px;
+/*font-family:Verdana,Arial;*/}
+
+#profile h1
+{font-size:25px;
+line-height:2em;}
+
+#profile h2
+{font-size:20px;
+line-height:2em;
+clear:both;}
+
+#profile h3
+{font-size:18px;
+line-height:2em;}
+
+#profile #handicap-profile {float:left;}
+  #profile #handicap-name {float:left;width:auto;}
+  #profile #handicap-avatar {padding:1em;float:left;clear:left;}
+  #profile #handicap-stats {padding-left:1em;float:left;width:200px;}
+#profile #handicap-menu {padding:1em 0 0 1em;float:left;}
+
+#profile #handicap-profile-r {float:right;width:180px;}
+#profile #handicap-profile-r #handicap-avatar {padding-top:0;clear:both;}
+#profile #handicap-profile-r ul {float:left;padding:auto;}
+#profile #handicap-profile-r h2 {margin:0;}
+
+#profile #handicap-recent-rounds {width:500px;height:280px;float:left;}
+
+#handicap-par, #handicap-score {font-weight:bold;}
+.handicap-par, .handicap-score, .handicap-other {margin:0 1em;width:30px;text-align:center;}
+.calendar {z-index:200000!important;}
+
+.hc-table {background:#ccc;}
+.hc-table td {background:#fff;text-align:center;}
+.hc-table .hc-table-title, .hc-table .hc-table-title td {font-weight:bold;text-align:center;background:#f6f6f6;}
+.hc-table td input {margin:auto;}
+
+.clear {clear:both;}
+
+table.nopad {width:auto!important;}
+
+#cWindowContent br {display:block;height:auto;width:auto;font-size:auto;}
+
+#cWindowContent .hc-config-label {float:left;width:24%;text-align:right;margin-right:5px;}
+#cWindowContent .hc-config-option {float:left;width:8%;}
+#cWindowContent .hc-config-option input {width:3em;text-align:center;}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<install version="1.5" type="plugin" group="community">
+    <name>Handicap</name>
+    <author>Alexander Moreno Delgado / Ast Derek</author>
+    <creationDate>June 2010</creationDate>
+    <copyright>Copyright (C) 2010 Alexander Moreno Delgado / Ast Derek. All rights reserved.</copyright>
+    <authorEmail>eidast@gmail.com; ast.derek@gmail.com</authorEmail>
+    <authorUrl>www.eidast.me</authorUrl>
+    <version>1.0</version>
+    <isapplication>true</isapplication>
+    <isbrowsable>true</isbrowsable>
+    <description>The calculation of handicap to player golf.</description>
+    <files>
+        <filename plugin = "handicap">handicap.php</filename>
+        <folder>handicap</folder>
+    </files>
+
+    <menuitem>
+        <menu label="Groups" position="toolbar">
+            <link label="Groups">task=groups</link>
+        </menu>
+    </menuitem>
+
+    <params>
+        <param
+            name = "cache"
+            type = "list"
+            default = "0"
+            label = "Enable caching"
+            description = "Cache data">
+            <option value = "0">No</option>
+            <option value = "1">Yes</option>
+        </param>
+        <param
+            name = "coreapp"
+            type = "list"
+            default = "0"
+            label = "Core Application"
+            description = "Causes this application to not appearin the users applications list but it will allow this application to appear in the user profile automatically if selected.">
+            <option value = "0">No</option>
+            <option value = "1">Yes</option>
+        </param>
+        
+    </params>
+</install>
